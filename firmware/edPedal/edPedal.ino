@@ -7,7 +7,7 @@
 
 #include <EasyHID.h>
 
-#define PEDAL_PIN 3
+#define PEDAL_PIN 3 // пин, к которому подключена педаль
 
 boolean flag;
 boolean currentState;
@@ -26,12 +26,12 @@ void loop() {
   
   if (currentState && !flag && millis() - pedalTimer > 100) {
     flag = true;
-    Keyboard.press(KEY_LEFT_CONTROL, KEY_J);
+    Keyboard.press(KEY_LEFT_CONTROL, KEY_J); // сочетание нажимаемых клавиш в Discord. Коды клавиш для скетча ищите в описании библиотеки EasyHID
     pedalTimer = millis();
   }
   if (!currentState && flag && millis() - pedalTimer > 100) {
     flag = false;  
-    Keyboard.release(KEY_LEFT_CONTROL, KEY_J);
+    Keyboard.release(KEY_LEFT_CONTROL, KEY_J); // сочетание нажимаемых клавиш в Discord. Коды клавиш для скетча ищите в описании библиотеки EasyHID
     pedalTimer = millis();
   }
   
