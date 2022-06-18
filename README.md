@@ -1,5 +1,5 @@
 [![Foo](https://img.shields.io/badge/version-1.0-brightgreen)](#versions)
-[![Foo](https://img.shields.io/badge/website-eternaldev.ru-red)](http://eternaldev.ru)
+[![Foo](https://img.shields.io/badge/website-eternaldev.ru-red)](https://eternaldev.ru)
 [![Foo](https://img.shields.io/badge/Telegram-eternaldev__ru-blue)](https://t.me/eternaldev_ru)
 
 # edPedal - педаль для Discord
@@ -12,7 +12,7 @@ Cлужит для использования ножной педали в ка�
 Как загружать прошивку в платы MH-ET рассказано [здесь](https://alexgyver.ru/lessons/tiny88/#articleTOC_3)
 
 ## Подключение
-Схема для подключения педали к плате очеь проста:
+Схема для подключения педали к плате очень проста:
 <br>
 ![scheme](/docs/circuit.png)
 
