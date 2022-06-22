@@ -1,5 +1,7 @@
 /*
+ * edPedal v.1.0
  * Copyright © 2022 Chernov Maksim
+ * Released under the MIT License.
  * GitHub - https://github.com/eternaldevru
  * Telegram - https://t.me/eternaldev_ru
  * 
